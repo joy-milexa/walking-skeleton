@@ -11,12 +11,12 @@
 
 }
 
-.heading {
+.header h1 {
   font-size: 5rem;
 }
 
 .nav {
-  padding: 1rem 0;
+  padding: 2rem 0;
 }
 
 .navList {
@@ -24,9 +24,22 @@
   flex-direction: row;
 }
 
-.navLink {
+.navListItem {
   list-style-type: none;
   margin: 0 2rem 0 0;
+}
+
+.navLink {
+  background-color: white;
+  padding: 10px 20px;
+  border-radius: 20px;
+  box-shadow: 1px 1px 3px rgba(0,0,0,0.3);
+  transition: background-color 0.2s;
+}
+
+.navLink:hover {
+  background-color:#ebebeb;
+  transition: background-color 0.2s;
 }
 
 .navLink:last-child {
