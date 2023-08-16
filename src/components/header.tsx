@@ -1,5 +1,5 @@
 import Link from "next/link"
-import styles from '@/app/css/header.module.css'
+import styles from "@/app/css/header.module.css"
 import { mouse_memoirs } from "@/app/layout";
 
 export default function Header() {
