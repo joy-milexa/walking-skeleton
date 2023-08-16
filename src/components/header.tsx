@@ -5,7 +5,7 @@ import { mouse_memoirs } from "@/app/layout";
 export default function Header() {
     return(
         <header className={styles.header}>
-            <h1 className={mouse_memoirs.className}>Joy's Travelog</h1>
+            <h1 className={mouse_memoirs.className}>Joy&apos;s Travelog</h1>
             <nav className={styles.nav}>
                 <ul className={styles.navList}>
                     <li className={styles.navListItem}><Link className={styles.navLink} href="/">Home</Link></li>
